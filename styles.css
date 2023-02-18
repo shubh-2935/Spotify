@@ -1,0 +1,123 @@
+.spot-img{
+    width: 50px;
+    padding: 0 15px 0 0;
+
+}
+.body{
+    background-color: #212121 ;
+}
+div.middle{
+    background-color: #121212;
+    height: 700px;
+    margin: 30px;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.middle .shubhamcontainer{
+    display: flex;
+}
+.middle .Song-List{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.middle img{
+    height: 120px;
+    border-radius: 7px;
+}
+.middle .card{
+    margin: 10px;
+    background-color: #212121;
+    color: white;
+    border-radius: 7%;
+    padding: 10px;
+    width: 200px;
+    
+}
+.middle .card :hover{
+    color: #1db954;
+}
+.middle .card-content{
+    margin: 7px 7px 0;
+}
+.middle .card-content i{
+    float: right;
+    cursor: pointer;
+    font-size: 22px;
+}
+nav {
+    background-color: 	#121212;
+}
+.middle h2{
+    color: #b3b3b3;
+    position: relative;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.class{
+    background-color: red;
+}
+.bottom{
+    height: 100px;
+    background-color: #161616;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    bottom: 0px;
+}
+.icons .icon{
+    margin: 20px 20px 0;
+    cursor: pointer;
+    font-size: 22px;
+}
+.icons :hover{
+    color: #1db954;
+}
+#myProgressBar{
+    width: 75%;
+    height: 5px;
+    background: #1db954;
+    margin-top: 15px;
+}
+.bottom .song-name{
+    position: absolute;
+    top: 3.6vw;
+    left: 13vw;
+}
+.song-name h6{
+    font-size: 18px;
+
+}
+.addColor{
+    color: #1db954;
+}
+.bottom img{
+    position: absolute;
+    height: 90%;
+    width: 150px;
+    
+    left: 0px;
+    border-radius: 5px;
+}
+
+#footer{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    color: #b3b3b3;
+
+}
+#footer i{
+    margin: 8px 4px;
+    font-size: 20px;
+    color: #b3b3b3;
+
+}
+#footer i:hover{
+    color: #0d6efd;
+}
