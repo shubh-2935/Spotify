@@ -8,7 +8,6 @@
 }
 div.middle{
     background-color: #121212;
-    height: 700px;
     margin: 30px;
     border-radius: 12px;
     padding: 30px;
@@ -62,13 +61,14 @@ nav {
 .bottom{
     height: 100px;
     background-color: #161616;
-    position: sticky;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     flex-direction: column;
     bottom: 0px;
+    width: 100%;
 }
 .icons .icon{
     margin: 20px 20px 0;
@@ -110,7 +110,7 @@ nav {
     text-align: center;
     font-size: 15px;
     color: #b3b3b3;
-
+    height: 200px;
 }
 #footer i{
     margin: 8px 4px;
